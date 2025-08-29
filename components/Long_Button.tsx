@@ -24,8 +24,11 @@ const style = StyleSheet.create({
         backgroundColor: "#F85F6A",
         padding: "5%",
         borderRadius: 6,
-        maxHeight: 60,
+        height: 60,
+        width: '100%',
         marginTop: -25,
+        justifyContent: 'center', // ← Add this line
+        alignItems: 'center',     // ← Add this line
 
         shadowColor: '#000',
         shadowOffset: {
